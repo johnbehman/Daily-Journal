@@ -1,0 +1,26 @@
+#container {flex-direction: column;
+border: 0ex solid coral;
+border: 0em crimson;
+}
+
+body{background-image: url("https://images.ctfassets.net/2h1qowfuxkq7/OCGJQbOJxjekFdX4OLi3D/3bd374ba79b79538f647ef682712bb4e/Start_Your_Daily_Journal_in_2022.jpg?w=1500&h=625&q=85&fm=webp");}
+
+h1 {color: black;
+text-align: center;
+transform: rotate(20deg);
+margin-left: 25%;
+text-shadow: 0 0 4px cornflowerblue;
+text-decoration-line: underline;
+font-size: 300%;
+text-shadow: 2px 2px 4px rgb(78, 182, 116);
+}
+.journal {background-color: white;
+    color: red;
+    border: 1px solid black;
+justify-items: center;}
+.entery {-ms-flex-align: center;} 
+fieldset {width: 500px;
+margin: 20px auto;
+}
+#journal-entry {width: 200px; height: 150px;} 
+fieldset * {vertical-align: middle;}
