@@ -1,60 +1,58 @@
-body{background-image: url("https://images.ctfassets.net/2h1qowfuxkq7/OCGJQbOJxjekFdX4OLi3D/3bd374ba79b79538f647ef682712bb4e/Start_Your_Daily_Journal_in_2022.jpg?w=1500&h=625&q=85&fm=webp");
+body {
+    background-image: url(https://media.istockphoto.com/photos/white-office-desk-with-copy-space-open-notebook-keyboard-coffee-and-picture-id1277758901?k=20&m=1277758901&s=170667a&w=0&h=Cis0NZM86_6oli9k5HftJYcIBC5xuJvZmGfEzx9OQ6Y=);
+    background-size: cover;
+    background-position: 0% 20%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-
-}
-#Dinners {
-    background: none;
-    border: none;
-}
-#container {flex-direction: column;
-    border: 0ex solid coral;
-    border: 0em crimson;
-
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-
-h1 {color: black;
-text-align: center;
-transform: rotate(20deg);
-margin-left: 25%;
-text-shadow: 0 0 4px cornflowerblue;
-text-decoration-line: underline;
-font-size: 800%;
-text-shadow: 2px 2px 4px rgb(78, 182, 116);
-}
-.journal {background-color: white;
-    color: red;
-    border: 1px solid black;
-    justify-items: center;
-    font-size: 400%;
-}
-.entery {-ms-flex-align: center;} 
-fieldset {width: 800px;
-margin: 20px auto;
-}
-#journal-entry {width: 400px; height: 200px;} 
-fieldset * {vertical-align: middle;}
-.Concepts-covered {width: 800px;
-
-    width: 800px; height: 100px;
-}
-.entryForm__date {
-    font-size: 300%;
-}
-.date {
-    font-size: 300%;
-    width: 800px; height: 100px;
-    
+fieldset {
+    border: double red;
+    font-size: xx-large;
+    text-align: center;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    margin-bottom: 5%;
+    background-color: rgb(198, 165, 126);
 }
 
-.container {
-    font-size: 300%;
-    
+.start {
+    text-align: end;
+    text-decoration: underline;
+    font-size: 60px;
+    text-decoration-style: solid;
+    transform: rotate(20deg);
+    padding-left: 0%;
+    margin-bottom: 10%;
+    margin-top: 0%;
+
 }
-#Concepts covered {font-size: 300%;
+
+.rotate {
+    margin-bottom: 10%;
+    text-align: center;
 }
-.pet {
-    font-size: 300%;
+
+#main-container {
+    background-repeat: round;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+#containes1 {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.mood {
+    margin-top: 50%;
 }

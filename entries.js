@@ -1,4 +1,4 @@
-const journalEntry  = [{
+const journalEntry = [{
     id: 1,
     date: "07/26/2025",
     concept: "Complex Flexbox",
@@ -46,12 +46,9 @@ const journalEntry  = [{
     concept: "thankfull",
     entry: "need mor practices on js",
     mood: "active"
-}]
-//console.log(journalEntry);
-for (const taco of journalEntry) { 
-    console.log(taco.concept)}
-    
-    for (const taco of journalEntry) { 
-        if (taco.id %2 > 0){console.log(taco)}
-    };
-    
+}
+];
+export const getQuotes = () => {
+    const copyOfQuotes = journalEntry;
+    return copyOfQuotes;
+}
