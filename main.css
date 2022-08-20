@@ -1,7 +1,7 @@
 body {
-    background-image: url(https://media.istockphoto.com/photos/white-office-desk-with-copy-space-open-notebook-keyboard-coffee-and-picture-id1277758901?k=20&m=1277758901&s=170667a&w=0&h=Cis0NZM86_6oli9k5HftJYcIBC5xuJvZmGfEzx9OQ6Y=);
+    background-image: url(https://img.freepik.com/free-photo/concept-accessories-office-study-space-text_185193-78691.jpg?w=360);
     background-size: cover;
-    background-position: 0% 20%;
+    background-position: 40%;
     background-repeat: no-repeat;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
@@ -26,6 +26,8 @@ fieldset {
     padding-left: 0%;
     margin-bottom: 10%;
     margin-top: 0%;
+    cursor: pointer;
+    transition: 0.5s;
 
 }
 
@@ -56,3 +58,39 @@ fieldset {
 .mood {
     margin-top: 50%;
 }
+
+.jEntry {
+    /* border: 1px solid purple; */
+    background-color: rgb(206, 156, 213);
+    border-radius: 50px;
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ margin: 40px;
+ font-size: 22px;
+}
+#entries {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blanchedAlmond; */
+    margin: 40px;
+    justify-content: center;
+  }
+
+/* .entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.taco {
+    height: 250px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+} */
