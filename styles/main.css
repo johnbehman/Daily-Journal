@@ -1,11 +1,11 @@
-body {
+/* body {
     background-image: url(https://img.freepik.com/free-photo/concept-accessories-office-study-space-text_185193-78691.jpg?w=360);
     background-size: cover;
     background-position: 40%;
     background-repeat: no-repeat;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 fieldset {
     border: double red;
@@ -18,14 +18,14 @@ fieldset {
 }
 
 .start {
-    text-align: end;
+    text-align: center;
     text-decoration: underline;
     font-size: 60px;
     text-decoration-style: solid;
-    transform: rotate(20deg);
-    padding-left: 0%;
-    margin-bottom: 10%;
-    margin-top: 5%;
+    transform: rotate(0deg);
+    padding-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
     cursor: pointer;
     transition: 0.5s;
 
@@ -59,7 +59,7 @@ fieldset {
     margin-top: 50%;
 }
 
-.jEntry {
+.singleQuote {
     /* border: 1px solid purple; */
     background-color: rgb(206, 156, 213);
     border-radius: 50px;
@@ -79,6 +79,17 @@ fieldset {
     /* border: 1px solid blanchedAlmond; */
     margin: 40px;
     justify-content: center;
+  }
+ 
+  
+  #submitJournalEntry {
+    font-size: 30px;
+    background-repeat: round;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
 /* .entries {
